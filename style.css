@@ -1,0 +1,78 @@
+body {
+    background-attachment: fixed;
+	background-image: url(materials/background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.title {
+    
+}
+a {
+    color: #000 !important;
+    text-decoration: none;
+}
+a:hover {
+    color: #800000;   
+    text-decoration: underline; 
+}
+.main-text {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px 0 0;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 150%;
+    text-decoration: none;
+}
+.gallery {
+    border: 5px solid black;
+    padding: 0px;
+}
+a img {
+    border: 5px solid #53da3f; /* Рамка вокруг изображения-ссылки */
+   }         
+a:hover img  {
+    border: 5px solid #4682B4; /* Рамка при наведении на ссылку курсора мыши */
+}
+.blank {
+    border: 2px solid black;
+    padding: 4px;
+    height: 50%;
+    background-color: black;
+    opacity: 0.8;
+}
+.blank-text {
+    font-size: 24px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#button-join {
+    border: 3px solid white;
+    background: black;
+    color: white;
+    font-size: 18px;
+    height: 20%;
+}
+#button-info {
+    background: lightgreen;
+    border: 3px solid lightgreen;
+    font-size: 18px;
+    height: 20%;
+}
+.footer-content {
+    
+    min-height: calc(100vh - 70px);
+}
+.footer {
+    border: 10px solid black; /* Параметры границы */
+    background: #000; /* Цвет фона */
+    padding: 40px; /* Поля вокруг текста */
+    height: 50%;
+    color: white;
+}
