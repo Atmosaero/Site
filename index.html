@@ -8,20 +8,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
-	<h1>Студийная банда</h1>
+	<h1 class="title">Студийная банда</h1>
 	<div class="main-text">
-        <a href="link.html">Портфолио</a>
-        <a href="link.html">Состав</a>
-        <a href="link.html">Как работаем</a>
+        <nav>
+            <ol>
+        <li><a href="link.html" padding="10px">Портфолио</a></li>
+        <li><a href="link.html">Состав</a></li>
+        <li><a href="link.html">Как работаем</a></li>
+    </ol>
+    </nav>
 	</div>
 	<main>
         <h1>В производстве &#9203;</h1>
+        <div class="gallery-op">
+            <div class="gallery-top">
             <a><img class="gallery" src="materials/1.jpg" width="420" height="300"></a>
             <a><img class="gallery" src="materials/2.jpg" width="420" height="300"></a>
             <a><img class="gallery" src="materials/3.jpg" width="420" height="300"></a>
+        </div>
+            <div class="gallery-bottom">
             <a><img class="gallery" src="materials/4.jpg" width="420" height="300"></a>
             <a><img class="gallery" src="materials/5.jpg" width="420" height="300"></a>
             <a><img class="gallery" src="materials/6.jpg" width="420" height="300"></a>
+        </div>
+        </div>
     </main>
     <div class="blank">
         <p class="blank-text">&#9989;Профессиональная студия</p>
@@ -31,10 +41,12 @@
         <button id="button-info">Подробнее</button>
     </div>
     <div class="footer-content">
-
     </div>
     <footer class="footer">
-        &copy; Studio Band 2021
+        <img src="materials/vk.png" width= "48" height="48">
+        <img src="materials/tik-tok.png" width= "48" height="48">
+        <img src="materials/youtube.png" width= "48" height="48">
+        <p>&copy; Studio Band 2021</p>
     </footer>
 	</body>
 </html>
