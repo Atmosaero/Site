@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="shortcut icon" href="materials/ico.gif">
 </head>
 <body>
 	<h1 class="title">Студийная банда</h1>
@@ -19,15 +21,95 @@
     </nav>
 	</div>
 	<main>
-        <h1>В производстве &#9203;</h1>
+        <div class="info">
+        <p>Что такое дубляж?
+Дубляж – это способ перевода и озвучки фильмов, мультфильмов и сериалов, когда на смену язык оригинала и полностью накладывают другую на видео.<br>За границей дубляж видео – большая редкость. Преимущественно фильмы выходят на английском языке, а при необходимости в показе используют субтитры.</p>
+<p>МЫ - СТУДИЙНАЯ БАНДА занимающаяся русским дубляжом аниме и вы можете стать частью нашей команды &#10084;</p>
+        <div class="info">
+        <p>
+        </p>
+    </div>
+</div>
+        <div id="content-slider">
+  <div class="wrap-slider"> 
+
+    <h1 class="title">В производстве &#8987;</h1>
+
+    <!-- ===== Thumbnail ControlNav ======= -->         
+    <input type="radio" id="a-1" name="a" >         
+    <input type="radio" id="a-2" name="a" >         
+    <input type="radio" id="a-3" name="a" >
+    <input type="radio" id="a-4" name="a" >
+
+    <nav id="main">
+      <label for="a-1" class="first"></label>
+      <label for="a-2" class="first"></label>
+      <label for="a-3" class="first"></label>
+      <label for="a-4" class="first"></label>
+    </nav>
+
+    <!-- =================================== -->    
+    <nav id="control">
+      <label for="a-1"></label>
+      <label for="a-2"></label>
+      <label for="a-3"></label>
+      <label for="a-4"></label>
+    </nav>
+    <!-- =================================== -->
+
+
+    <!-- ===== IMages ======= -->                           
+
+    <div class="slider">
+      <div class="inset">
+
+        <figure>
+          <figcaption class="title-1">
+            <h1>Богиня благословляет этот прекрасный мир</h1>
+            <a href="">Узнать больше...</a>
+          </figcaption>
+          <img src="materials/1.jpg" alt="" id="i-1" class="f">                       
+        </figure>
+
+        <figure>
+          <figcaption class="title-2">
+            <h1>Бугипоп никогда не смеётся (2019)</h1>
+            <a href="">Узнать больше...</a>
+          </figcaption>
+          <img src="materials/2.jpg" alt="" id="i-2" class="f">                      
+        </figure>
+
+        <figure>
+          <figcaption class="title-3">
+            <h1>Истории монстров</h1> 
+            <a href="">Узнать больше...</a>
+          </figcaption>
+          <img src="materials/3.jpg" alt="" id="i-3" class="f">                       
+        </figure>
+
+        <figure>
+          <figcaption class="title-4">
+            <h1>Евангелион</h1>
+            <a href="">Узнать больше...</a>
+          </figcaption>
+          <img src="materials/4.jpg" alt="" id="i-4" class="f">                       
+        </figure>
+
+             
+      </div>
+    </div>                  
+
+  </div>        
+</div>
+<h1>Закончены</h1>
         <div class="gallery-op">
             <div class="gallery-top">
-            <a><img class="gallery" src="materials/1.jpg" width="420" height="300"></a>
-            <a><img class="gallery" src="materials/2.jpg" width="420" height="300"></a>
-            <a><img class="gallery" src="materials/3.jpg" width="420" height="300"></a>
+            <a><img class="gallery" src="materials/g1.jpg" width="420" height="300"></a>
+            <a><img class="gallery" src="materials/g2.jpg" width="420" height="300"></a>
+            <a><img class="gallery" src="materials/g3.jpg" width="420" height="300"></a>
         </div>
             <div class="gallery-bottom">
-            <a><img class="gallery" src="materials/4.jpg" width="420" height="300"></a>
+            <a><img class="gallery" src="materials/g4.jpg" width="420" height="300"></a>
             <a><img class="gallery" src="materials/5.jpg" width="420" height="300"></a>
             <a><img class="gallery" src="materials/6.jpg" width="420" height="300"></a>
         </div>
@@ -43,10 +125,18 @@
     <div class="footer-content">
     </div>
     <footer class="footer">
-        <img src="materials/vk.png" width= "48" height="48">
+            <p>Подписаться на рассылку</p>
+            <div class="footer-buttons">
+            <input font-size="32px" resize="none" cols="30" placeholder="Введите ваш e-mail"></input>
+            <button>&#9989;</button>
+        </div>
+            <p>&copy; Studio Band 2021</p>
+            <img src="materials/vk.png" width= "48" height="48">
         <img src="materials/tik-tok.png" width= "48" height="48">
         <img src="materials/youtube.png" width= "48" height="48">
-        <p>&copy; Studio Band 2021</p>
+            <div style="height:100px"></div>
+            <a href="#" title="Вернуться к началу страницы" class="footer-scroll">&uArr;</a>
+    </div>
     </footer>
 	</body>
 </html>
