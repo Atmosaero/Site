@@ -58,6 +58,10 @@ nav {
     opacity: 0.8;
     color: white;
     border-spacing: 7px 11px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+
 }
 .gallery {
     border: 5px solid black;
@@ -90,6 +94,9 @@ a:hover img  {
     height: 50%;
     background-color: black;
     opacity: 0.8;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 .blank-text {
     font-size: 24px;
@@ -111,8 +118,7 @@ a:hover img  {
     height: 20%;
 }
 .footer-content {
-    
-    min-height: calc(100vh - 50px);
+    height: 300px;
 }
 .footer {
     left: 0;
@@ -201,7 +207,7 @@ textarea {
   margin-top: 5%;
   /*position: absolute;*/
   overflow: hidden;
-  width: 100%;
+  width: 80%;
   margin: 0 auto;       
 
   position: relative;               
